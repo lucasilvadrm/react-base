@@ -2,5 +2,17 @@
   "tabWidth": 2,
   "useTabs": false,
   "singleQuote": true,
-  "trailingComma": "es5"
+  "trailingComma": "all",
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "htmlWhitespaceSensitivity": "ignore",
+  "insertPragma": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "always",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "vueIndentScriptAndStyle": false,
+  "embeddedLanguageFormatting": "off"
 }

@@ -24,9 +24,13 @@ module.exports = {
   rules: {
     'prettier/prettier': 2,
     'react/jsx-filename-extension': 0,
-    // 'react/react-in-jsx-scope': 0,
     'import/prefer-default-export': 0,
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
+    'react/function-component-definition': 'off',
+    'import/no-extraneous-dependencies': [
+      'error',
+      { devDependencies: ['**/*.test.js', '**/*.spec.js'] },
+    ],
   },
 };
