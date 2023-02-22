@@ -14,6 +14,7 @@ const Login = () => {
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione
         explicabo.
       </Paragraph>
+      <button type="button">Enviar</button>
     </Container>
   );
 };
