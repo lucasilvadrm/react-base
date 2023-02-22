@@ -28,9 +28,17 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
     'react/function-component-definition': 'off',
+    // 'import/no-extraneous-dependencies': [
+    //   'error',
+    //   { devDependencies: ['**/*.test.js', '**/*.spec.js'] },
+    // ],
     'import/no-extraneous-dependencies': [
       'error',
-      { devDependencies: ['**/*.test.js', '**/*.spec.js'] },
+      {
+        devDependencies: false,
+        optionalDependencies: false,
+        peerDependencies: false,
+      },
     ],
   },
 };
